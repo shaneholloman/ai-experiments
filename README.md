@@ -32,18 +32,21 @@ This repository contains various experiments and implementations using modern AI
 ### Installation
 
 1. Clone the repository:
-   ```bash
+
+   ```sh
    git clone https://github.com/shaneholloman/ai-experiments.git
    cd ai-experiments
    ```
 
 2. Install dependencies:
-   ```bash
+
+   ```sh
    pip install -r requirements.txt
    ```
 
 3. Create a `.env` file in the root directory with your API keys:
-   ```
+
+   ```sh
    ANTHROPIC_API_KEY=your_anthropic_api_key
    OPENAI_API_KEY=your_openai_api_key
    ```
@@ -52,13 +55,13 @@ This repository contains various experiments and implementations using modern AI
 
 Navigate to the `src` directory and run the desired experiment:
 
-```bash
+```sh
 python src/experiment_name.py
 ```
 
 ## Project Structure
 
-```
+```sh
 ai-experiments/
 ├── docs/                # Documentation and findings
 ├── images/              # Images and diagrams
